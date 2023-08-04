@@ -1,0 +1,12 @@
+ONLY FOR WINDOWS
+	to run on command line
+	create jar file first, by going to project folder, open cmd and run -- mvnw package.
+		If you've maven installed on your pc then run -- mvn package	
+	after running this the jar will be created inside target sub folder
+	To run your spring app:
+		now, navigate to target folder and run command -- java -jar jarfilename.jar
+
+	The above was using maven
+
+	Now, you can also run using maven plugin
+		Navigate to project folder, and open cmd and run -- mvnw spring-boot:run
